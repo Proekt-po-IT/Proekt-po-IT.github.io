@@ -1,0 +1,103 @@
+@import "http://webfonts.ru/import/badscript.css";
+@import "http://webfonts.ru/import/avdira.css";
+@import "http://webfonts.ru/import/anahit.css";
+
+@font-face {
+    font-family:'Beer money';
+    src: url('../fonts/beer money.ttf');
+}
+    
+
+body {
+    background:  url(../files/background-3.jpg) fixed;
+    background-size: cover;
+}
+
+#Nazvanie {
+    font-family: 'Beer money', cursive; 
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+hr {
+   border-color: black;
+    margin-bottom: 0px;
+   border-width: 5px;
+}
+
+.group {
+    padding: 10px;
+    color: black;
+    font-family: 'Bad Script';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: black;
+    border-top-style: none;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-right-style: groove; 
+}
+
+.group:hover,
+.group:focus {
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Bad Script';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: black;
+    border-top-style: none;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;  
+}
+
+#Issl {
+    background: linear-gradient(red, #9A5044);    
+}
+
+#Glavnaya {
+    background: linear-gradient(to bottom, green, #559A45);   
+}
+
+#Sis {
+    background: linear-gradient(to bottom, blue, #3C5F9A);
+}
+
+p {
+    color: black;
+    font-family: 'Avdira';
+    text-align: center;
+    font-size: 30px;    
+}
+
+a {
+    color: crimson;
+}
+
+h3 {
+    color: black;
+    font-family: 'Avdira';
+    text-align: center;
+    font-size: 35px;
+    border-bottom-color: black;
+    border-bottom-style: inset;
+    
+}
+    
+@media (max-width: 767px) {
+    .group {
+        border-top-style: groove;
+        border-top-color: black;    
+    }
+} 
